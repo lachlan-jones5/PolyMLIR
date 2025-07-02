@@ -1,0 +1,62 @@
+# Build directories
+build/
+Build/
+BUILD/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled binaries and libraries
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# LLVM/MLIR build artifacts
+*.bc
+*.ll
+*.s
+*.ptx
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing artifacts
+Testing/
+CTestTestfile.cmake
+
+# Debug files
+*.dSYM/
+
+# Package managers
+node_modules/
+.npm/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+gem5configs/tutorial
+cpu_tests/
+fs_images/
